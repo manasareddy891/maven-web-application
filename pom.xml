@@ -99,7 +99,7 @@
 	    <repository>
 	      <id>deploymentnexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.138.120.140:9980/mithuntechnologies/repository/flipkart-releases/</url>
+	      <url>http://3.138.120.140:9980/mithuntechnologies/repository/flipkart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
