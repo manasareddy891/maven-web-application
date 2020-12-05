@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.manasa</groupId>
-	<artifactId>manasa-web-application</artifactId>
+	<artifactId>mansa-web-application</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.4-SNAPSHOT</version>
 	
