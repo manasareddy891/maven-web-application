@@ -5,7 +5,7 @@
 	<groupId>com.manasa</groupId>
 	<artifactId>manasa-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.3</version>
 	
 	<name>maven-web-application</name>
 
