@@ -1,3 +1,4 @@
+<%@ page import="java.net.InetAddress" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -26,6 +27,18 @@
 		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
 	</span>
 </div>
+<div style="text-align: center;">
+<%
+    java.util.Date date = new java.util.Date();
+    InetAddress inetAddress = InetAddress.getLocalHost();
+%>
+The time is 
+<%
+    out.println( date );
+    out.println("<br>Your server's hostname is "+inetAddress.getHostName());
+    out.println("<br>Your server's hostname is "+inetAddress.getHostAddress());
+%>	
+	</div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
