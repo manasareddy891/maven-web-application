@@ -20,6 +20,8 @@ public class EmployeeService {
 	@ResponseBody
 	String uploadImage(HttpServletRequest request, HttpServletResponse response, HttpSession httpSession)
 			throws JSONException {
+		
+		System.out.println("Hello i am in Employee Service");
 
 		JSONObject js = new JSONObject();
 		js.put("Name", "Mithun Technologies");
