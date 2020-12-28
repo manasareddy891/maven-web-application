@@ -30,6 +30,8 @@ public class EmployeeService {
 		js.put("Hobbies", "Reading Technical Blogs,Teaching, Helping to Poor People..");
 		js.put("Places he like", "His native place");
 
+		System.out.println("Hello leaving Employee Service");
+		
 		return js.toString();
 }
 }
